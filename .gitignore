@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+study_schedule.txt
+node_modules/
+.next/
+tsconfig.tsbuildinfo

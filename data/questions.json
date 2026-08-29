@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ae-p13-1",
+    "dimension": "academic_effort",
+    "ageGroup": "p1-p3",
+    "text": "Did your child stick with something difficult today, or give up quickly? What was it?"
+  },
+  {
+    "id": "ae-p13-2",
+    "dimension": "academic_effort",
+    "ageGroup": "p1-p3",
+    "text": "Was there a moment where your child chose to try again instead of walking away?"
+  },
+  {
+    "id": "ae-p13-3",
+    "dimension": "academic_effort",
+    "ageGroup": "p1-p3",
+    "text": "How did your child react when they got something wrong — embarrassed, curious, frustrated, or something else?"
+  },
+  {
+    "id": "ae-p46-1",
+    "dimension": "academic_effort",
+    "ageGroup": "p4-p6",
+    "text": "Did your child approach today's work with genuine effort or just enough to get by? What made you think so?"
+  },
+  {
+    "id": "ae-p46-2",
+    "dimension": "academic_effort",
+    "ageGroup": "p4-p6",
+    "text": "Was there a subject or task your child engaged with more deeply than usual? What do you think drew them in?"
+  },
+  {
+    "id": "ae-p46-3",
+    "dimension": "academic_effort",
+    "ageGroup": "p4-p6",
+    "text": "When your child got feedback or a lower mark than expected, how did they process it?"
+  },
+  {
+    "id": "ew-p13-1",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p1-p3",
+    "text": "What emotion did your child show most today? Did they know what to call it?"
+  },
+  {
+    "id": "ew-p13-2",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p1-p3",
+    "text": "Was there a moment your child felt overwhelmed? How did they handle it?"
+  },
+  {
+    "id": "ew-p13-3",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p1-p3",
+    "text": "Did your child seem settled in themselves today, or was something quietly unsettling them?"
+  },
+  {
+    "id": "ew-p46-1",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p4-p6",
+    "text": "Was your child able to name how they were feeling today, or did it come out sideways — as irritability, withdrawal, or restlessness?"
+  },
+  {
+    "id": "ew-p46-2",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p4-p6",
+    "text": "Did your child have a moment of genuine calm or joy today, not from a screen? What was it?"
+  },
+  {
+    "id": "ew-p46-3",
+    "dimension": "emotional_wellbeing",
+    "ageGroup": "p4-p6",
+    "text": "Is there anything your child seemed to be carrying emotionally that they didn't talk about?"
+  },
+  {
+    "id": "sr-p13-1",
+    "dimension": "social_relationships",
+    "ageGroup": "p1-p3",
+    "text": "Did your child talk about a friend today? What did they say?"
+  },
+  {
+    "id": "sr-p13-2",
+    "dimension": "social_relationships",
+    "ageGroup": "p1-p3",
+    "text": "Was there a moment where your child showed kindness to someone — in the family or outside?"
+  },
+  {
+    "id": "sr-p13-3",
+    "dimension": "social_relationships",
+    "ageGroup": "p1-p3",
+    "text": "Did your child have a disagreement with anyone today? How did it go?"
+  },
+  {
+    "id": "sr-p46-1",
+    "dimension": "social_relationships",
+    "ageGroup": "p4-p6",
+    "text": "Did your child show empathy toward someone today — noticing how another person felt, not just what they needed?"
+  },
+  {
+    "id": "sr-p46-2",
+    "dimension": "social_relationships",
+    "ageGroup": "p4-p6",
+    "text": "How are your child's friendships feeling right now — easy, complicated, distant?"
+  },
+  {
+    "id": "sr-p46-3",
+    "dimension": "social_relationships",
+    "ageGroup": "p4-p6",
+    "text": "Was there a moment where your child chose someone else's needs over their own?"
+  },
+  {
+    "id": "cv-p13-1",
+    "dimension": "character_values",
+    "ageGroup": "p1-p3",
+    "text": "Did your child do something responsible today without being asked?"
+  },
+  {
+    "id": "cv-p13-2",
+    "dimension": "character_values",
+    "ageGroup": "p1-p3",
+    "text": "Was there a moment where your child was honest, even when it was uncomfortable?"
+  },
+  {
+    "id": "cv-p13-3",
+    "dimension": "character_values",
+    "ageGroup": "p1-p3",
+    "text": "Did your child show care for someone in the family today?"
+  },
+  {
+    "id": "cv-p46-1",
+    "dimension": "character_values",
+    "ageGroup": "p4-p6",
+    "text": "Was there a moment today where your child made a choice that reflected their values — even a small one?"
+  },
+  {
+    "id": "cv-p46-2",
+    "dimension": "character_values",
+    "ageGroup": "p4-p6",
+    "text": "Did your child take ownership of a mistake today, or deflect it?"
+  },
+  {
+    "id": "cv-p46-3",
+    "dimension": "character_values",
+    "ageGroup": "p4-p6",
+    "text": "Is there something your child did today that you'd want them to remember as an example of who they are?"
+  },
+  {
+    "id": "pr-p13-1",
+    "dimension": "physical_rest",
+    "ageGroup": "p1-p3",
+    "text": "How was your child's energy today — bouncy, flat, somewhere in between?"
+  },
+  {
+    "id": "pr-p13-2",
+    "dimension": "physical_rest",
+    "ageGroup": "p1-p3",
+    "text": "Did your child get any physical activity today? What was it?"
+  },
+  {
+    "id": "pr-p13-3",
+    "dimension": "physical_rest",
+    "ageGroup": "p1-p3",
+    "text": "How did your child sleep last night, and did it show today?"
+  },
+  {
+    "id": "pr-p46-1",
+    "dimension": "physical_rest",
+    "ageGroup": "p4-p6",
+    "text": "Is your child getting enough physical movement this week, or mostly sitting?"
+  },
+  {
+    "id": "pr-p46-2",
+    "dimension": "physical_rest",
+    "ageGroup": "p4-p6",
+    "text": "How is the balance between screens and everything else right now?"
+  },
+  {
+    "id": "pr-p46-3",
+    "dimension": "physical_rest",
+    "ageGroup": "p4-p6",
+    "text": "Did your child show signs of being physically worn out or genuinely well-rested today?"
+  },
+  {
+    "id": "rm-p13-1",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p1-p3",
+    "text": "Did something go wrong for your child today? How long did it take them to bounce back?"
+  },
+  {
+    "id": "rm-p13-2",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p1-p3",
+    "text": "Was there a moment your child surprised you with how they handled something hard?"
+  },
+  {
+    "id": "rm-p13-3",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p1-p3",
+    "text": "Did your child give up on something today? What do you think was behind it?"
+  },
+  {
+    "id": "rm-p46-1",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p4-p6",
+    "text": "How is your child responding to pressure right now — do they face it, avoid it, or shut down?"
+  },
+  {
+    "id": "rm-p46-2",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p4-p6",
+    "text": "Was there a setback this week your child handled better than you expected?"
+  },
+  {
+    "id": "rm-p46-3",
+    "dimension": "resilience_mindset",
+    "ageGroup": "p4-p6",
+    "text": "Does your child believe they can get better at the things they struggle with, or do they treat those as fixed about themselves?"
+  }
+]
