@@ -18,10 +18,10 @@ export default function SignupPage() {
     setLoading(true);
     const supabase = createClient();
     const { data, error } = await supabase.auth.signUp({ email, password });
-    console.error("signup error:", error);
-    console.log("signup data:", data);
+    console.log("signup data:", JSON.stringify(data));
     if (error) {
-      setError(`${error.message} (status: ${error.status}, code: ${error.code})`);
+      console.error("signup error:", JSON.stringify({ message: error.message, status: error.status, code: (error as { code?: string }).code }));
+      setError(`${error.message} [status=${error.status}, code=${(error as { code?: string }).code}]`);
       setLoading(false);
     } else {
       router.push("/app/onboarding");
