@@ -17,9 +17,11 @@ export default function SignupPage() {
     setError("");
     setLoading(true);
     const supabase = createClient();
-    const { error } = await supabase.auth.signUp({ email, password });
+    const { data, error } = await supabase.auth.signUp({ email, password });
+    console.error("signup error:", error);
+    console.log("signup data:", data);
     if (error) {
-      setError(error.message);
+      setError(`${error.message} (status: ${error.status}, code: ${error.code})`);
       setLoading(false);
     } else {
       router.push("/app/onboarding");
@@ -63,7 +65,7 @@ export default function SignupPage() {
             />
           </div>
           {error && (
-            <p className="text-sm text-red-600">{error}</p>
+            <p className="text-sm text-red-600 break-all">{error}</p>
           )}
           <button
             type="submit"
