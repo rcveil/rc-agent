@@ -17,7 +17,13 @@ export default function SignupPage() {
     setError("");
     setLoading(true);
     const supabase = createClient();
-    const { data, error } = await supabase.auth.signUp({ email, password });
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        emailRedirectTo: "https://rc-agent.vercel.app/app/onboarding",
+      },
+    });
     console.log("signup data:", JSON.stringify(data));
     if (error) {
       console.error("signup error:", JSON.stringify({ message: error.message, status: error.status, code: (error as { code?: string }).code }));
